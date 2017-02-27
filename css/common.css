@@ -1,0 +1,161 @@
+body{
+	background: #dedede;
+}
+
+h2{
+	margin-bottom: 22px;
+}
+h3{
+	margin-bottom: 20px;
+	color: #596269;
+}
+
+h5{
+	margin-bottom: 20px;
+	color: #596269;
+}
+
+p{
+	padding: 0px;
+	margin: 0px;
+	text-indent: 2em;
+	line-height: 1.8em;
+	font-size: 0.9em;
+}
+
+p a{
+	display: inline;
+}
+
+.public-header{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background: #333;
+}
+
+.public-header .public-header-logo{
+	margin-left: 40px;
+	float: left;
+}
+
+.public-header .public-header-nav{
+	margin-top: 20px;
+	margin-right: 2px;
+	float: right;
+
+}
+
+.public-header .public-header-nav .nav-list{
+	margin-right: 20px;
+	float: left;
+	font-size: 12px;
+}
+
+.public-header .public-header-nav .nav-list a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.public-header .public-header-nav .nav-list .last-child{
+	color: #a19cb0;
+}
+
+.section{
+	margin:20px;
+	padding-left: 22px;
+	padding-top: 38px;
+	padding-bottom: 44px;
+	background: #fff;
+	box-shadow: 2px 2px #848484;
+}
+
+.section .p-img{
+	padding: 22px 0;
+}
+
+.section .section-other-list{
+	list-style: none;
+	padding-left: 20px;
+}
+
+.section .list-pic{
+	margin-top: 14px;
+	margin-left: 44px;
+	padding: 10px;
+	border: 1px solid #cbcbcb;
+}
+
+.section .list-pic .list-pic-txt{
+	text-align: center;
+	font-size: 0.7em;
+	padding-bottom: 8px;
+}
+
+.aside{
+	margin-top: 38px;
+	margin-left: 22px;
+	margin-right: 42px;
+	margin-bottom: 20px;
+	padding-left: 22px;
+	padding-top: 38px;
+	padding-right: 24px;
+	padding-bottom: 44px;
+	background: #fff;
+	box-shadow: 2px 2px #848484
+}
+
+.public-footer{
+	width: 100%;
+	height: 70px;
+	background: #000;
+}
+
+.public-footer .footer-txt{
+	padding-top: 20px;
+	padding-left: 50%;
+	color: #fff;
+}
+.section caption{
+	text-align: left;
+}
+
+.section table{
+	border-collapse: collapse;
+	border: 1px solid #dedede;
+}
+
+.aside .aside-li{
+	display: inline-block;
+	list-style: none;
+	margin-left: -15px;
+}
+
+.aside .aside-right{
+	border-left: 4px solid #cdcdcd;
+}
+
+.aside .aside-li .hint{
+	display: block;
+	margin-left: 39%;
+	margin-bottom: 22px;
+	color: #a1a0a6;
+}
+.aside .aside-li .lable-txt{
+	display: inline-block;
+	width: 500px;
+	text-align: right;
+	vertical-align: top;
+	margin-bottom: 12px;
+}
+.aside .submit-btn{
+	width:95%;
+	height: 38px;
+	display: block;
+	background-color: #3355d0;
+	color: #fff;
+	border-radius: 10px;
+	margin:0 auto;
+	font-size: 15px;
+}
