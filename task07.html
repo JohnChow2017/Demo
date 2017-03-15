@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>task07</title>	
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />	
+	<style type="text/css">
+		.body{
+			width: 100%;
+		}
+		.public-header{
+			min-width: 1280px;
+			height: 56px;
+			background-color: #fff;
+		}
+		.public-header .main-wrap{
+			height: 56px;
+			line-height: 56px;
+			position: relative;
+			width: 1160px;
+			margin: 0 auto;
+		}
+		.public-header .main-wrap .public-header-logo{
+			float: left;
+		}
+		.public-header .main-wrap .public-header-logo .logo-div{
+			display: inline-block;
+			width: 110px;
+			height: 31px;
+			line-height: 31px;
+			text-decoration: none;
+			font-family: "黑体";
+			font-size: 21px;
+			color: #393a3a;
+		}
+		.public-header .main-wrap .public-header-logo .logo-div .logo-i{
+			display: inline-block;
+			background-image: url("./img/task07-img/public-header-logo.png");
+			width: 31px;
+			height: 36px;
+			vertical-align: middle;
+			background-repeat: no-repeat;
+
+		}
+		.public-header .main-wrap .header-nav{
+			float: right;
+			
+		}
+		.public-header .main-wrap .header-nav .nav{
+			font-size: 14px;
+			font-family: "微软雅黑";
+			list-style: none;
+		}
+		.public-header .main-wrap .header-nav .nav .item{
+			float: left;
+			margin-left:18px;
+			margin-right: 18px; 
+			
+		}
+		.public-header .main-wrap .header-nav .nav .item .item-nav{
+			text-decoration: none;
+			color: #787b83;
+		}
+		.public-header .main-wrap .header-nav .nav .item a:hover{
+			color: #e74f4d;
+		}
+		.public-header .main-wrap .user{
+			float: right;
+		}
+		.public-header .main-wrap .user .logo-a{
+			text-decoration: none;
+			font-family: "微软雅黑";
+			font-size: 14px;
+			color: #e74f4d;
+			margin-left: 10px;
+		}
+		.public-header .main-wrap .user .logo-a .user-logo{
+			display: inline-block;
+			width: 14px;
+			height: 17px;
+			line-height: 17px;
+			background-image: url("./img/task07-img/user.png");
+			background-repeat: no-repeat;
+			vertical-align: -3px;
+		}
+
+		.index-banner{
+			min-width: 1280px;
+			height: 726px;
+			position: relative;
+			
+		}
+		.index-banner .banner-img{
+			margin: 0 auto;
+			width: 1280px;
+		}
+		.index-banner .banner-h1{
+			position: absolute;
+			font-size: 60px;
+			font-family: "微软雅黑";
+			color: #fff;
+			line-height: 60px;
+			margin-top: 228px;
+			margin-left: 112px;
+		}
+		.index-banner .banner-p{
+			position: absolute;
+			font-size: 21px;
+			line-height: 1.3em;
+			color: #fff;
+			font-family: "微软雅黑";
+			margin-top: 306px;
+			margin-left: 122px;
+			width: 296px;
+		}
+		.index-banner .button{
+			position: absolute;
+			/*width: 330px;
+			height: 62px;*/
+			background-color: #e74f4d;
+			margin-top: 428px;
+			margin-left: 124px;
+			text-align: center;
+			
+		}
+		.index-banner .button .btn-a{
+			text-decoration: none;
+			font-family: "微软雅黑";
+			font-size: 30px;
+			line-height: 30px;
+			color: #fff;
+			width: 330px;
+			height: 62px;
+			
+
+
+		}
+		.index-banner .button .btn-a span{
+			vertical-align: -14px;
+		}
+		.index-pannel-a{
+			min-width: 1280px;
+			height: 250px;
+			background-color: blue;
+		}
+		.index-pannel-b{
+			min-width: 1280px;
+			height: 360px;
+			background-color: black;
+		}
+		.index-pannel-c{
+			min-width: 1280px;
+			height: 340px;
+			background-color: red;
+		}
+		.index-pannel-d{
+			min-width: 1280px;
+			height: 604px;
+			background-color: pink;
+		}
+		.public-footer{
+			min-width: 1280px;
+			height: 414px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="public-header">
+		<div class="main-wrap">
+			<div class="public-header-logo">
+				<a href="#" class="logo-div">
+					<i class="logo-i"></i>
+					<span>新世界</span>
+				</a>
+			</div>
+			<div class="user">
+				<a href="#" class="logo-a">
+					<i class="user-logo"></i>
+					<span>登录</span>
+				</a>
+			</div>
+			<div class="header-nav">
+				<ul class="nav">
+					<li class="item"><a href="#" class="item-nav">首页</a></li>
+					<li class="item"><a href="#" class="item-nav">最新活动</a></li>
+					<li class="item"><a href="#" class="item-nav">项目介绍</a></li>
+					<li class="item"><a href="#" class="item-nav">爱心社区</a></li>
+					<li class="item"><a href="#" class="item-nav">关于我们</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="index-banner">
+		<h2 class="banner-h1">Time of new life</h2>
+		<p class="banner-p">新时代，年轻的人们让我们一起体验新生活，享受新生活</p>
+		<div class="button">
+			<a href="#" class="btn-a">
+				<span>开始体验</span>
+			</a>
+		</div>
+		<img class="banner-img" src="./img/task07-img/banner.png" />
+	</div>
+	<div class="index-pannel-a"></div>
+	<div class="index-pannel-b"></div>
+	<div class="index-pannel-c"></div>
+	<div class="index-pannel-d"></div>
+	<div class="index-pannel-e"></div>
+	<div class="index-pannel-f"></div>
+	<div class="index-pannel-g"></div>
+	<div class="public-footer"></div>
+</body>
+</html>
