@@ -3,12 +3,12 @@ body, p, div, ul, li{padding: 0; margin: 0;}
 ul, li{list-style: none;}
 
 /*main*/
-body{font-size: 62.5%}
-.wrap{background: #68cdd5; color: #fff; position: relative;}
-.back{height: 5.4em; width:5.4em;  padding-top: 20px; padding-left: 35px; cursor: pointer;}
-.logo{width:18.1em; height:7em; margin: 40px auto 120px;}
-.intro{line-height:55px; font-size: 3em; font-family: '宋体'; text-align: left;
-		margin:0 14%;}
-.pic{margin-top:10em; height: 33.4em; font-size: 2.4em; font-family: '宋体'}
-.l-pic{width:8.4em; height: 8.4em; left: 18%; position: absolute; text-align: center;}
-.r-pic{width:8.4em; height: 8.4em; right: 18%; position: absolute; text-align: center;}
+body{ background: #68cdd5; color: #fff;  font: 100%; font-family: '宋体'; 
+		font-weight: bold;}
+img{max-width: 100%}
+.back{width:3.375em; height:3.375em; position: absolute; left: 2.125em; top:1.125em;}
+.logo{width: 11.3125em; height: 4.375em; margin: 7.1875em auto;}
+.intro{font-size: 1.875em; margin: 0.3125em 5.5em}
+.l-pic{width: 5.25em; height: 5.25em; margin: 0 0 0 25%; display: inline-block;}
+.r-pic{width: 5.25em; height: 5.25em; margin: 0 0 0 25%; display: inline-block;}
+
